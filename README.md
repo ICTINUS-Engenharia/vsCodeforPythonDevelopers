@@ -1,1 +1,1 @@
-# vsCodeforPythonDevelopers
+# vsCode for Python Developers
