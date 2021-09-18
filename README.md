@@ -1,5 +1,7 @@
 # vsCode for Python Developers
 
+https://www.shellhacks.com/git-config-username-password-store-credentials/
+
 Git – Config Username & Password – Store Credentials
 Posted on July 19, 2019by admin
 To connect to a Git repository with authentication over HTTP(S), every time it needs to set a username and password.
