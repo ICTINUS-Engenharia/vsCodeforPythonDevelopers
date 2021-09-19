@@ -25,7 +25,7 @@ class geometry_solver(object):
     @staticmethod
     def volume_of_box(width, length, depth):
         area = width * length
-        vol = area + depth
+        vol = area * depth
         return (vol)
 
     # consider adding more volume methods
