@@ -81,7 +81,11 @@ def main():
             ans = geometry_solver.volume_of_box(w, l, d)
             print(
                 f"Volume of rectangle with width {w},height {l}, depth {d} is {ans}")
-
+        elif choice == "4":
+            response = input("radius? ")
+            r = float(response)
+            ans = geometry_solver.volume_of_sphere(r)
+            print(f"Volume of a sphere with radius {r} is {ans}")
 
 # If we're running this module as the main program, execute main()
 if __name__ == "__main__":
