@@ -6,9 +6,9 @@ import math
 # Geometry solver class
 # Collection of methods for calculating various geometric formulas
 #
-# Important to make sure teacher doesn't find out about this
-# Not sure whether to specify using floats or decimals yet
-# Error checking has not been added yet, be careful with params
+# * Important to make sure teacher doesn't find out about this
+# ? Not sure whether to specify using floats or decimals yet
+# ! Error checking has not been added yet, be careful with params
 # @param object -- derives from the object base class
 
 
@@ -28,7 +28,7 @@ class geometry_solver(object):
         vol = area + depth
         return (vol)
 
-    # consider adding more volume methods
+    # todo: consider adding more volume methods
 
     @staticmethod
     def volume_of_sphere(radius):
