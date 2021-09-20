@@ -10,30 +10,31 @@ das dicas encontradas no blog abaixo ou no video de youtube que explica essa que
 Eu criei um Token para autenticação do repositório no vsCode localmente na minha máquina, mas outras formas de autenticação
 são permitidas.
 
-Vou deixar o texto original em inglês da postagem.
-
 [Dicas de como autenticar a conta Github](https://www.shellhacks.com/git-config-username-password-store-credentials/)
 
 **Git – Config Username & Password – Store Credentials** Posted on July 19, 2019by admin
-To connect to a Git repository with authentication over HTTP(S), every time it needs to set a username and password.
+Para se conectar a um repositório Git com autenticação via HTTP (S), toda vez que ele precisa definir um nome de usuário e senha.
 
-You can configure Git to remember a username and password by storing them in a remote URL or by using Git credential helper.
+Você pode configurar o Git para lembrar um nome de usuário e senha armazenando-os em uma URL remota ou usando o ajudante de credencial Git.
 
-In this article i am showing how to clone Git repository by setting a username and password on the command line, how to save a username and password in Git credentials storage and how to configure different usernames and passwords for different repositories on the same Git server.
+Neste artigo, estou mostrando como clonar o repositório Git definindo um nome de usuário e senha na linha de comando, como salvar um nome de usuário e senha no armazenamento de credenciais Git e como configurar diferentes nomes de usuário e senhas para diferentes repositórios no mesmo servidor Git.
 
 ![image](https://user-images.githubusercontent.com/33582443/133961361-b7b6efd0-5f37-43c0-839d-4f9d81efa972.png)
 
-## Set Username and Password in Remote URL
+## Definir nome de usuário e senha no URL remoto
 
-To save credentials you can clone Git repository by setting a username and password on the command line:
+Para salvar as credenciais, você pode clonar o repositório Git definindo um nome de usuário e uma senha na linha de comando:
 
-$ git clone https://<USERNAME>:<PASSWORD>@github.com/path/to/repo.git
-The username and password will be stored in .git/config file as a part of the remote repository URL.
+![image](https://user-images.githubusercontent.com/33582443/133961582-64eebdc6-b956-4db8-bfb5-7249a6e4e2cc.png)
 
-If you have already cloned a repository without setting username and password on the command line, you can always update the remote URL by running the following command:
+O nome de usuário e a senha serão armazenados no .git/configarquivo como parte da URL do repositório remoto.
 
-$ git remote set-url origin https://<USERNAME>:<PASSWORD>@github.com/path/to/repo.git
-Save Username and Password in Git Credentials Storage
+Se você já clonou um repositório sem definir o nome de usuário e a senha na linha de comando, pode sempre atualizar o URL remoto executando o seguinte comando:
+
+**$ git remote set-url origin https://<USERNAME>:<PASSWORD>@github.com/path/to/repo.git**
+
+##Save Username and Password in Git Credentials Storage
+
 Run the following command to enable credentials storage in your Git repository:
 
 $ git config credential.helper store
