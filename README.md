@@ -56,14 +56,13 @@ Cada credencial no ~/.git-credentialsarquivo é armazenada em sua própria linha
 Às vezes, você pode precisar usar contas diferentes no mesmo servidor Git, por exemplo, a conta corporativa da sua empresa em github.com e a conta privada.
 Para poder configurar nomes de usuário e senhas para diferentes repositórios Git no mesmo servidor Git, você pode habilitar a opção useHttpPath.
 
->Por padrão, o Git não considera o componente “caminho” de uma URL http para ser correspondido por meio de ajudantes externos. Isso significa que uma credencial armazenada para >https://example.com/foo.gittambém será usada para https://example.com/bar.git. Se você quiser distinguir esses casos, defina a useHttpPathopção como verdadeiro ( fonte )
+>Por padrão, o Git não considera o componente “caminho” de uma URL http para ser correspondido por meio de ajudantes externos. Isso significa que uma credencial armazenada para >https://example.com/foo.git também será usada para https://example.com/bar.git. Se você quiser distinguir esses casos, defina a opção useHttpPath como verdadeiro ( fonte )
 
 Execute os seguintes comandos para configurar o armazenamento de credenciais Git e separar credenciais para diferentes repositórios em github.com :
 
-$ git config --global credential.helper store
-$ git config --global credential.github.com.useHttpPath true
+![image](https://user-images.githubusercontent.com/33582443/133962752-2d247318-22bc-44fd-b85b-bfbbefb5ad3a.png)
+
 The usernames and passwords for different GitHub repositories will be stored in ~/.git-credentials file separately on their own lines:
 
 https://<USERNAME>:<PASSWORD>@github.com/path/to/repo1.git
 https://<USERNAME>:<PASSWORD>@github.com/path/to/repo2.git
-Cool Tip: Create a new Git branch and checkout in one command! Read More →
