@@ -51,7 +51,7 @@ Cada credencial no ~/.git-credentialsarquivo é armazenada em sua própria linha
 
 ![image](https://user-images.githubusercontent.com/33582443/133962461-9b07c848-be4e-43da-83bc-819fc883abe2.png)
 
-## Config nome de usuário e senha para diferentes repositórios
+## Configure nome de usuário e senha para diferentes repositórios
 
 Às vezes, você pode precisar usar contas diferentes no mesmo servidor Git, por exemplo, a conta corporativa da sua empresa em github.com e a conta privada.
 Para poder configurar nomes de usuário e senhas para diferentes repositórios Git no mesmo servidor Git, você pode habilitar a opção useHttpPath.
