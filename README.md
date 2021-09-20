@@ -21,11 +21,10 @@ You can configure Git to remember a username and password by storing them in a r
 
 In this article i am showing how to clone Git repository by setting a username and password on the command line, how to save a username and password in Git credentials storage and how to configure different usernames and passwords for different repositories on the same Git server.
 
-Cool Tip: Show Git branch name in the command prompt! Read more →
+![image](https://user-images.githubusercontent.com/33582443/133961361-b7b6efd0-5f37-43c0-839d-4f9d81efa972.png)
 
-Warning: Your Git credentials will be saved in a plaintext format in the files .git/config or ~/.git-credentials, depending on the method you choose.
+## Set Username and Password in Remote URL
 
-Set Username and Password in Remote URL
 To save credentials you can clone Git repository by setting a username and password on the command line:
 
 $ git clone https://<USERNAME>:<PASSWORD>@github.com/path/to/repo.git
