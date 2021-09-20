@@ -37,8 +37,9 @@ Se você já clonou um repositório sem definir o nome de usuário e a senha na 
 
 Execute o seguinte comando para habilitar o armazenamento de credenciais em seu repositório Git:
 
-$ git config credential.helper store
-To enable credentials storage globally, run:
+![image](https://user-images.githubusercontent.com/33582443/133962261-65757271-d7f6-496e-88a2-735f53d756a7.png)
+
+Para habilitar o armazenamento de credenciais globalmente, execute:
 
 $ git config --global credential.helper store
 When credentials storage is enabled, the first time you pull or push from the remote Git repository, you will be asked for a username and password, and they will be saved in ~/.git-credentials file.
