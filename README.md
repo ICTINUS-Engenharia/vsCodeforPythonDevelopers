@@ -49,14 +49,16 @@ Durante as próximas comunicações com o repositório Git remoto, você não pr
 
 Cada credencial no ~/.git-credentialsarquivo é armazenada em sua própria linha como um URL como:
 
-https://<USERNAME>:<PASSWORD>@github.com
-Config Username and Password for Different Repositories
-Sometimes you may need to use different accounts on the same Git server, for example your company’s corporate account on github.com and your private one.
-To be able to configure usernames and passwords for different Git repositories on the same Git server you can enable the useHttpPath option.
+![image](https://user-images.githubusercontent.com/33582443/133962461-9b07c848-be4e-43da-83bc-819fc883abe2.png)
 
-By default, Git does not consider the “path” component of an http URL to be worth matching via external helpers. This means that a credential stored for https://example.com/foo.git will also be used for https://example.com/bar.git. If you do want to distinguish these cases, set useHttpPath option to true (source)
+## Config nome de usuário e senha para diferentes repositórios
 
-Run the following commands to configure Git credentials storage and separate credentials for different repositories on github.com:
+Às vezes, você pode precisar usar contas diferentes no mesmo servidor Git, por exemplo, a conta corporativa da sua empresa em github.com e a conta privada.
+Para poder configurar nomes de usuário e senhas para diferentes repositórios Git no mesmo servidor Git, você pode habilitar a opção useHttpPath.
+
+>Por padrão, o Git não considera o componente “caminho” de uma URL http para ser correspondido por meio de ajudantes externos. Isso significa que uma credencial armazenada para >https://example.com/foo.gittambém será usada para https://example.com/bar.git. Se você quiser distinguir esses casos, defina a useHttpPathopção como verdadeiro ( fonte )
+
+Execute os seguintes comandos para configurar o armazenamento de credenciais Git e separar credenciais para diferentes repositórios em github.com :
 
 $ git config --global credential.helper store
 $ git config --global credential.github.com.useHttpPath true
