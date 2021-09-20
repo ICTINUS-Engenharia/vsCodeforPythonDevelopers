@@ -41,12 +41,13 @@ Execute o seguinte comando para habilitar o armazenamento de credenciais em seu 
 
 Para habilitar o armazenamento de credenciais globalmente, execute:
 
-$ git config --global credential.helper store
-When credentials storage is enabled, the first time you pull or push from the remote Git repository, you will be asked for a username and password, and they will be saved in ~/.git-credentials file.
+![image](https://user-images.githubusercontent.com/33582443/133962323-9be753bc-57e7-45cf-8d2f-4972d75f2a20.png)
 
-During the next communications with the remote Git repository you won’t have to provide the username and password.
+Quando o armazenamento de credenciais está habilitado, na primeira vez que você puxa ou faz push do repositório Git remoto, será solicitado um nome de usuário e uma senha, e eles serão salvos em um ~/.git-credentialsarquivo.
 
-Each credential in ~/.git-credentials file is stored on its own line as a URL like:
+Durante as próximas comunicações com o repositório Git remoto, você não precisará fornecer o nome de usuário e a senha.
+
+Cada credencial no ~/.git-credentialsarquivo é armazenada em sua própria linha como um URL como:
 
 https://<USERNAME>:<PASSWORD>@github.com
 Config Username and Password for Different Repositories
