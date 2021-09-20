@@ -31,11 +31,11 @@ O nome de usuário e a senha serão armazenados no .git/configarquivo como parte
 
 Se você já clonou um repositório sem definir o nome de usuário e a senha na linha de comando, pode sempre atualizar o URL remoto executando o seguinte comando:
 
-**$ git remote set-url origin https://<USERNAME>:<PASSWORD>@github.com/path/to/repo.git**
+![image](https://user-images.githubusercontent.com/33582443/133962073-1a3255f4-a64f-4344-b3ec-1484ce688ccb.png)
 
-##Save Username and Password in Git Credentials Storage
+## Salvar nome de usuário e senha no armazenamento de credenciais Git
 
-Run the following command to enable credentials storage in your Git repository:
+Execute o seguinte comando para habilitar o armazenamento de credenciais em seu repositório Git:
 
 $ git config credential.helper store
 To enable credentials storage globally, run:
