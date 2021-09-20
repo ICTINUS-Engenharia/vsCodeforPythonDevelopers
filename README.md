@@ -62,7 +62,6 @@ Execute os seguintes comandos para configurar o armazenamento de credenciais Git
 
 ![image](https://user-images.githubusercontent.com/33582443/133962752-2d247318-22bc-44fd-b85b-bfbbefb5ad3a.png)
 
-The usernames and passwords for different GitHub repositories will be stored in ~/.git-credentials file separately on their own lines:
+Os nomes de usuário e senhas para diferentes repositórios GitHub serão armazenados em ~/.git-credentialsarquivo separadamente em suas próprias linhas:
 
-https://<USERNAME>:<PASSWORD>@github.com/path/to/repo1.git
-https://<USERNAME>:<PASSWORD>@github.com/path/to/repo2.git
+![image](https://user-images.githubusercontent.com/33582443/133962951-dd390890-48e8-4a5e-aab6-2e9e6f0c3ef8.png)
