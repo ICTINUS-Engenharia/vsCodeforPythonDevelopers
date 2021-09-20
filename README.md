@@ -1,9 +1,20 @@
 # vsCode for Python Developers
 
-https://www.shellhacks.com/git-config-username-password-store-credentials/
+Estudo de PI fazendo uso do treinamento Linkedin Learning, vsCode for Python Developers
 
-Git – Config Username & Password – Store Credentials
-Posted on July 19, 2019by admin
+## Autenticação do repositório Github no vsCode Editor
+
+Uma dificuldade que o estudante pode encontrar é autenticar a contado Github no vsCode, para isso o mesmo pode fazer uso
+das dicas encontradas no blog abaixo ou no video de youtube que explica essa questão muito bem.
+
+Eu criei um Token para autenticação do repositório no vsCode localmente na minha máquina, mas outras formas de autenticação
+são permitidas.
+
+Vou deixar o texto original em inglês da postagem.
+
+[Dicas de como autenticar a conta Github](https://www.shellhacks.com/git-config-username-password-store-credentials/)
+
+**Git – Config Username & Password – Store Credentials** Posted on July 19, 2019by admin
 To connect to a Git repository with authentication over HTTP(S), every time it needs to set a username and password.
 
 You can configure Git to remember a username and password by storing them in a remote URL or by using Git credential helper.
