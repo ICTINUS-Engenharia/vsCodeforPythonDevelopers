@@ -1,4 +1,4 @@
-# vsCode for Python Developers
+# vs Code for Python Developers
 
 Estudo de PI fazendo uso do treinamento Linkedin Learning, vsCode for Python Developers
 
@@ -56,7 +56,7 @@ Cada credencial no ~/.git-credentialsarquivo é armazenada em sua própria linha
 Às vezes, você pode precisar usar contas diferentes no mesmo servidor Git, por exemplo, a conta corporativa da sua empresa em github.com e a conta privada.
 Para poder configurar nomes de usuário e senhas para diferentes repositórios Git no mesmo servidor Git, você pode habilitar a opção useHttpPath.
 
->Por padrão, o Git não considera o componente “caminho” de uma URL http para ser correspondido por meio de ajudantes externos. Isso significa que uma credencial armazenada para >https://example.com/foo.git também será usada para https://example.com/bar.git. Se você quiser distinguir esses casos, defina a opção useHttpPath como verdadeiro ( fonte )
+> Por padrão, o Git não considera o componente “caminho” de uma URL http para ser correspondido por meio de ajudantes externos. Isso significa que uma credencial armazenada para >https://example.com/foo.git também será usada para https://example.com/bar.git. Se você quiser distinguir esses casos, defina a opção useHttpPath como verdadeiro ( fonte )
 
 Execute os seguintes comandos para configurar o armazenamento de credenciais Git e separar credenciais para diferentes repositórios em github.com :
 
