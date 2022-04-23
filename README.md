@@ -1,4 +1,4 @@
-# vs Code for Python Developers
+# vsCode for Python Developers
 
 Estudo de PI fazendo uso do treinamento Linkedin Learning, vsCode for Python Developers
 
